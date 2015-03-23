@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 group :development, :test do
   gem 'rspec-rails'
-  gem 'autotest-rails', '~> -v 4.1.0'
+  gem 'autotest-rails', '~> 4.1.0'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
