@@ -88,7 +88,8 @@ class LeavesController < ApplicationController
     @leave = Leave.find(params[:id])
     @leave.update(:status => "declined")
     @user = @leave.user
-    UserMailer.declined_email(@user,@leave).deliver_now
+    ## hide for now
+    #UserMailer.declined_email(@user,@leave).deliver_now
     respond_to do |format|
       if session[:return] != nil
         format.html {redirect_to session.delete(:return)}
