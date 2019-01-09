@@ -18,7 +18,7 @@ class ListUsersController < ApplicationController
     @user.image_uid = "icon-user-default.png"
     if @user.save
       flash[:notice] = "New Employee successfully added."
-      UserMailer.welcome_email(@user).deliver_now
+     #UserMailer.welcome_email(@user).deliver_now
       redirect_to "/list_users"
     else
       render "new"
