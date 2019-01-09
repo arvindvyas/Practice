@@ -24,8 +24,8 @@ ActiveRecord::Schema.define(version: 20160304063357) do
     t.string  "reason_for_leave"
     t.integer "user_id"
     t.string  "status"
-    t.date    "leave_date_from"
-    t.date    "leave_date_to"
+    t.date    "leave_date_from::date"
+    t.date    "leave_date_to::date"
   end
 
   create_table "notices", force: :cascade do |t|
