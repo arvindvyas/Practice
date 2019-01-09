@@ -68,9 +68,6 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-    jbuilder (2.4.1)
-      activesupport (>= 3.0.0, < 5.1)
-      multi_json (~> 1.2)
     jquery-infinite-pages (0.2.0)
       coffee-script
       jquery-rails
@@ -174,7 +171,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   dragonfly (~> 1.0.12)
-  jbuilder (~> 2.0)
   jquery-infinite-pages
   jquery-rails
   kaminari
